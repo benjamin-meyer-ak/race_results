@@ -1,0 +1,13 @@
+name: race_results_sorter_app
+title: race_results_sorter_app
+username:
+account: kenaiwatershed
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 9082870
+bundleId: 7201689
+url: https://kenaiwatershed.shinyapps.io/race_results_sorter_app/
+when: 1683759723.15747
+lastSyncTime: 1683759723.15749
+asMultiple: FALSE
+asStatic: FALSE
