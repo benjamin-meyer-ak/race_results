@@ -1,6 +1,6 @@
 # Install and load the required libraries
 
-# Shiny script by Jehangeer Aswani, May 2023. 
+# Initial Shiny script by Jehangeer Aswani, May 2023. 
 
 # load packages
 library(tidyverse)
@@ -54,7 +54,7 @@ ui <- fluidPage(# Define the title of the app
 # Define the server
 server <- function(input, output, session) {
   
-  # Define the function for downloading the blank Excel template
+  # Define the function for downloading the Excel template
   output$downloadTemplate <- downloadHandler(
     filename <- function() {
       "race_entrant_data_blank_template.xlsx"
@@ -63,7 +63,7 @@ server <- function(input, output, session) {
       file.copy("data/race_entrant_data_blank_template.xlsx", file)
     })
   
-  # Define the function for downloading the filled-out example template
+  # Define the function for downloading the Excel template
   output$downloadExampleTemplate <- downloadHandler(
     filename <- function() {
       "race_entrant_data_example.xlsx"
@@ -106,7 +106,6 @@ server <- function(input, output, session) {
       transform(start_time = as_hms(start_time),
                 finish_time = as_hms(finish_time)) |> 
       mutate(time_duration = as_hms(finish_time - start_time))
-    
     
     # Group the data by category and compute rankings
     if (input$category == "All Categories") {
