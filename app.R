@@ -82,11 +82,13 @@ server <- function(input, output, session) {
     # Read the uploaded Excel file using the readxl package
     race_start_data <- readxl::read_xlsx(input$uploadFile$datapath,
                                          sheet = "race_start_data") |>
-      clean_names()
+      clean_names() %>%
+      remove_empty()
     
     race_end_data <- readxl::read_xlsx(input$uploadFile$datapath,
                                        sheet = "race_end_data") |>
-      clean_names()
+      clean_names() %>%
+      remove_empty()
     
     list(race_start_data = race_start_data, 
          race_end_data = race_end_data)
