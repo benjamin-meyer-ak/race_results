@@ -6,6 +6,7 @@
 # remove blank column in display table
 # fix calculation to handle >24 hrs
 # put app text on seperate tab
+# republish to shinyapps.io (error trying to do so as of 5/27/2023)
 
 # load packages
 library(tidyverse)

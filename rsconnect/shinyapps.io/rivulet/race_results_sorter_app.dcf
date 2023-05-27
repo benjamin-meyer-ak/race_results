@@ -5,9 +5,9 @@ account: rivulet
 server: shinyapps.io
 hostUrl: https://api.shinyapps.io/v1
 appId: 9198901
-bundleId: 7271457
+bundleId: 7271463
 url: https://rivulet.shinyapps.io/race_results_sorter_app/
-when: 1685204490.03372
-lastSyncTime: 1685204490.03373
+when: 1685204665.62783
+lastSyncTime: 1685204665.62784
 asMultiple: FALSE
 asStatic: FALSE
