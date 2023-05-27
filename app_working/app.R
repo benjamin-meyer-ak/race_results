@@ -1,11 +1,8 @@
 # Install and load the required libraries
 
-# Initial shiny script draft by Jehangeer Aswani, May 2023. 
+# Initial shiny script by Jehangeer Aswani, May 2023. 
 
-# notes (to do)
-# remove blank column in display table
-# fix calculation to handle >24 hrs
-# put app text on seperate tab
+# this version last edited 5/27/2023, working; see notes
 
 # load packages
 library(tidyverse)

@@ -1,0 +1,13 @@
+name: race_results_sorter_app
+title: race_results_sorter_app
+username:
+account: rivulet
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 9198901
+bundleId: 7271457
+url: https://rivulet.shinyapps.io/race_results_sorter_app/
+when: 1685204490.03372
+lastSyncTime: 1685204490.03373
+asMultiple: FALSE
+asStatic: FALSE
